@@ -1,5 +1,5 @@
 class SimData {
-  final List<SimCard>? cards;
+  final List<SimCard> cards;
   SimData(this.cards);
 
   static SimData fromJson(data) {
